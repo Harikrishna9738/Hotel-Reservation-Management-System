@@ -12,7 +12,7 @@ class Guest(models.Model):
     age = models.IntegerField(default=0)
     contact = models.IntegerField()
     email = models.EmailField()
-   
+
     def __str__(self):
         return str(self.guest_name)+' ,'+str(self.govt_id)
 
@@ -64,6 +64,9 @@ class Booking(models.Model):
         total = (self.check_out_date - self.check_in_date).days
         total_amount = total * self.price
         return total_amount
+
+
+
 
 
 
