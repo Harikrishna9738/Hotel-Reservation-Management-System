@@ -1,4 +1,4 @@
-# HRMS
+# Hotel-Reservation-Management-System
 
 This project contains the hotel management system,which include the django models and rest API's
 
@@ -21,7 +21,7 @@ Installing
 
 Clone the repository
 ```
-https://github.com/Harikrishna9738/CabAllocationSystem
+https://github.com/Harikrishna9738/Hotel-Reservation-Management-System
 ```
 Setting up your virtual environment:
 ```
@@ -30,6 +30,14 @@ python3 -m venv .env
 Activate the Virtual Environment:
 ```
 source .env/bin/activate
+```
+To run the migrations
+```
+python3 manage.py makemigrations
+```
+To migrate the project
+```
+python3 manage.py migrate
 ```
 To run the project
 ```
