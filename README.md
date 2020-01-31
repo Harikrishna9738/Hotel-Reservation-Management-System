@@ -43,3 +43,4 @@ To run the project
 ```
 python3 manage.py runserver
 ```
+![alt text](https://github.com/Harikrishna9738/Todo-List/blob/master/screenshots/Screenshot%20from%202020-01-31%2010-14-00.png)
